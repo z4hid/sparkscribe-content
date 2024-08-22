@@ -7,7 +7,9 @@ import os
 # Check our tools documentations for more information on how to use them
 # from crewai_tools import SerperDevTool
 
+
 os.environ["OPENAI_API_KEY"] = "NA"
+
 
 from langchain.llms import Ollama
 
